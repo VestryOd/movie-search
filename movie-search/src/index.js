@@ -36,8 +36,6 @@ window.onload = () => {
   searchEngine.addSliderEventListeners();
   searchEngine.render();
 
-  console.log(searchEngine);
-
   searchForm.form.addEventListener('submit', (e) => {
     e.preventDefault();
     searchEngine.searchRequest(e.target);

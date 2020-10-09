@@ -37,6 +37,10 @@
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  @include media-tablet {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 .image__wrapper {

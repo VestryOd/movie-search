@@ -82,7 +82,7 @@ export async function getTranslate(text) {
         return data;
       })
       .catch(error => {
-        throw new Error(`Connection problem. Reason: ${error.message}`);
+        throw new Error(`Connection problem. Reason: ${error.message}. Maybe Yandex Translate API is blocked`);
       });
   } catch (error) {
     throw new Error(error);

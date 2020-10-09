@@ -18,7 +18,4 @@
 .swiper-button-prev,
 .swiper-button-next {
   outline: transparent;
-  @media (max-width: 414px) {
-    display: none !important;
-  }
 }

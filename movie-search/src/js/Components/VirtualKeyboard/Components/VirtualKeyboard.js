@@ -224,12 +224,6 @@ export class VirtualKeyboard {
         this.capslocked = !this.capslocked;
         this.capslockPressed(this.capslocked);
         break;
-      // case 'ShiftLeft':
-      //   this.shiftPressed(true)
-      //   break;
-      // case 'ShiftRight':
-      //   this.shiftPressed(true)
-      //   break;
       default:
         this.changeValue(special);
         break;
